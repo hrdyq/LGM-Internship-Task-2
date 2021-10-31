@@ -1,0 +1,23 @@
+.box {
+  border-radius: 1rem;
+  border: 2px solid brown;
+  min-width: 18.5rem;
+  height: 19rem;
+  padding: 1rem;
+  color: white;
+  gap: 1.5rem;
+}
+
+.box__img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+.box__img > img {
+  border-radius: 10rem;
+  width: 5rem;
+  height: 5rem;
+  border: 1px solid rgb(94, 37, 173);
+}
